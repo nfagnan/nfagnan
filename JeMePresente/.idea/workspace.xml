@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3236985-1d76-4f71-83d2-3cdd8f6e8a40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../onePage/css/styleClasses.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JeMePresenteVersion2:2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../JeMePresenteVersion2:2/css/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1aHZqvJuI0dDLWvLweFBybKbdId" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3236985-1d76-4f71-83d2-3cdd8f6e8a40" name="Default Changelist" comment="" />
+      <created>1586394673532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586394673532</updated>
+      <workItem from="1586394674793" duration="11660000" />
+      <workItem from="1586990824810" duration="1532000" />
+      <workItem from="1586996654298" duration="1276000" />
+      <workItem from="1587002011047" duration="1001000" />
+      <workItem from="1587004263074" duration="58000" />
+      <workItem from="1588293528142" duration="1750000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="81" key="SettingsEditor" timestamp="1586999067851">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="443" y="81" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1586999067851" />
+    <state x="443" y="81" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1586394693909" />
+    <state x="443" y="81" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1586996950612" />
+  </component>
+</project>

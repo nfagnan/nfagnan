@@ -1,0 +1,19 @@
+/* styleAPropos.css */
+/* Programmé par nadine fagnan */
+/* Le 2 mai 2020 */
+
+
+body {
+    width: 900px; /*largeur du site*/
+    margin: auto; /*pour centrer le site en largeur*/
+    background-color: whitesmoke;
+}
+
+h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+h2{
+    font-size: 2.5em;
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+/* testCSS.css */
+/* Programmé par nadine fagnan */
+/* Le 22 avril 2020 */
+
+body {
+    width: 900px; /*largeur du site*/
+    margin: auto; /*pour centrer le site en largeur*/
+    background-color: dimgrey;
+    background: url("../img/bleublur.png") no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+h1,h2{
+    color: lightblue;
+text-align: center;
+}
+p{
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+
+}
+h1{
+     font-size: 36px;
+ }
+h2{
+    font-size: 24px;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin:auto;
+    display:black;
+}
+img:hover{
+    box-shadow: 5px 10px #888888;
+}
+a:link {color:lightblue;
+}
+a:visited {color:darkblue;
+}
+a:hover{color:lightblue; background : darkblue;
+}
+
+table, th, td {
+      border: 1px solid black;
+      font-size: 1em;
+      color :darkblue;
+  }
+ul {
+    font-size: 1em;
+    color:red;}
+
+a:hover img.imagedropshadow {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}

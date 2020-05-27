@@ -1,0 +1,45 @@
+
+/* onePageCSS.css */
+/* Programmé par nadine fagnan */
+/* Le 28 avril 2020 */
+
+
+.belleImage{
+border: 1px solid #ddd;
+    border-radius: 4px;
+    color: lightblue;
+    text-align: center;
+
+}
+.belleImage:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140,186, 0.5);
+    text-align: center;
+}
+.titreh1{
+    font-size: 5em;
+    color: deeppink;
+}
+.titreh2{
+    font-size: 3em;
+    color: pink;
+}
+@font-face{
+    font-family: sunnycloud;
+    src: url(../font/font1.ttf);
+}
+h1 {
+    font-family: sunnycloud;
+    font-size: 2em;
+}
+#entrepreneur{
+     background-color: wheat;
+ }
+#sport{
+    background-color: grey;
+}
+#loisir{
+    background-color: cadetblue;
+}
+#reve{
+    background-color: lightgoldenrodyellow;
+}

@@ -1,0 +1,36 @@
+/* testCSS.css */
+/* Programmé par nadine fagnan */
+/* Le 13 mai 2020 */
+
+.fondRouge{
+    background-color: red;
+    height: 100px ;
+}
+.fondBleu{
+      background-color: blue;
+      height: 100px ;
+  }
+.fondJaune{
+    background-color: yellow;
+    height: 100px ;
+}
+.fondVert{
+    background-color: greenyellow;
+    height: 100px ;
+}
+.fondBlanc{
+    background-color: white;
+    height: 100px ;
+}
+.fondJaune200{
+    background-color: yellow;
+    height: 200px ;
+}
+.fondVert200{
+    background-color: greenyellow;
+    height: 200px ;
+}
+.fondBleu200{
+    background-color: blue;
+    height: 200px ;
+}
