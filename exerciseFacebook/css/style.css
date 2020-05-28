@@ -2,12 +2,22 @@
 /* Programmé par nadine fagnan */
 /* Le 27 mai 2020 */
 
+#zoneGauche{
+    background-color: lightgrey ;
+}
 
-.fondBleu{
-    background-color: blue;
+
+
+
+.fondGris{
+    background-color: lightgrey;
     height: 500px ;
 }
 .fondVert{
     background-color: green;
+    height: 500px ;
+}
+.fondJaune{
+    background-color: yellow;
     height: 500px ;
 }

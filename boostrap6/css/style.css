@@ -14,7 +14,7 @@ h2{
     font-size: 15px;
     color: black;
     text-align: center;
-    margin-top:40px;
+    padding:5px;
 }
 #paragraphe1{
     text-align: justify;
@@ -28,23 +28,24 @@ h2{
 }
 #deschalets{
     background-color: lightblue ;
-    height: 300px ;
-    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 
 }
 #sectionicone{
     background-color: antiquewhite;
     text-align: center;
-    height: 300px ;
-    width: 100%;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
 }
 .imgQuai{
 background-image:url('../img/quai.jpg');
     background-repeat: no-repeat;
-    height: 600px ;
-    width: 100%;
-
+    background-size: cover;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
 }
+
 
 hr{ margin-bottom:30px;
     margin-top:30px;
