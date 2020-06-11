@@ -1,0 +1,47 @@
+/* testCSS.css */
+/* Programmé par nadine fagnan */
+/* Le 27 mai 2020 */
+
+#zoneGauche{
+    background-color: lightgrey ;
+}
+#photoRond{
+  height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#card1-texte{
+justify-content: center;
+}
+#card-name{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 10px;
+}
+#photoParis{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fondGris{
+    background-color: lightgrey;
+    height: 500px ;
+}
+.fondVert{
+    background-color: green;
+    height: 500px ;
+}
+.fondJaune{
+    background-color: yellow;
+    height: 500px ;
+}
