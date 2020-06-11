@@ -1,0 +1,80 @@
+/* testCSS.css */
+/* Programmé par nadine fagnan */
+/* Le 6 juin 2020 */
+
+#banniere{
+    background-image: url("../img/witcherBanniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 15rem;
+}
+
+body{
+
+}
+
+@font-face{
+    font-family:Thewitcher-jn0j;
+    src: url(../font/Thewitcher-jnOj.ttf);
+}
+
+
+h1,h2,h5{
+    color: white;
+    font-family:Thewitcher-jnOj;
+}
+
+h2{
+   padding-top: 3rem;
+}
+
+h3{
+    color: #6c6c6c;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+h4{
+    color: #6c6c6c;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+h5{
+    font-size: 1rem;
+    padding-top: 2rem;
+    font-weight: bold;
+}
+
+.padPhotoJeux {
+    padding-top: 1rem ;
+}
+
+.fa-facebook-square {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+hr{ background: #353434;
+    height: 1px;
+    border-style: none;
+    margin: 2% 0;
+}
+
+
+.couleurNavBar{
+    background-color:rgba(128,128,128,0.4);
+}
