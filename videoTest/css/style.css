@@ -3,7 +3,17 @@
 /* Le 6 juin 2020 */
 
 
+.modal-dialog
 
+{
+   max-width: 85%
+}
+#photoHockey
+
+{
+   padding-top: 2em;
+    padding-bottom: 2em;
+}
 
 header
 
