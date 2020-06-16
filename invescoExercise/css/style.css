@@ -35,6 +35,13 @@ H1{
     font-weight: bold;
     font-size: 3rem;
 }
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+}
 
 
 
