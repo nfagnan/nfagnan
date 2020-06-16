@@ -18,6 +18,16 @@
     padding-top: 20rem;
     padding-bottom: 20rem;
 }
+.zone3{
+    background-image: url("../img/img3.JPG");
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.zone4{
+    background-image: url("../img/img2.JPG");
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
 .fondJaune{
     background-color: rgba(221, 203, 15, 0.8);
     padding-top: 5rem;
@@ -25,18 +35,46 @@
     margin-top: 16rem;
 }
 .fondGris{
-      background-color: rgba(139, 142, 144, 0.8);
-      padding-top: 2rem;
-      padding-bottom:2rem ;
-      margin-top: 3rem;
-  }
+       background-color: rgba(139, 142, 144, 0.8);
+       padding-top: 2rem;
+       padding-bottom:2rem ;
+       margin-top: 3rem;
+   }
+.fondVert{
+    background-color: forestgreen;
+    padding-top: 10rem;
+    padding-bottom:10rem ;
+}
+
+.fondBeige{
+    background-color: beige;
+    padding-top: 10rem;
+    padding-bottom:10rem ;
+}
+.fondBleu{
+    background-color: dodgerblue;
+    padding-top: 10rem;
+    padding-bottom:10rem ;
+}
 H1{
     color: black;
     font-weight: bold;
     font-size: 3rem;
 }
+H3{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
 ul {
     list-style: none;
+    text-align: center;
+}
+#liste2 {
+    color: white;
+}
+#pzone3 {
+    color: white;
 }
 
 ul li:before {
@@ -76,67 +114,3 @@ ul li:before {
 
 
 
-body{
-
-}
-
-@font-face{
-    font-family:Thewitcher-jn0j;
-    src: url(../font/Thewitcher-jnOj.ttf);
-}
-
-
-
-h2{
-   padding-top: 3rem;
-}
-
-h3{
-    color: #6c6c6c;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-h4{
-    color: #6c6c6c;
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding-top: 1rem;
-}
-
-h5{
-    font-size: 1rem;
-    padding-top: 2rem;
-    font-weight: bold;
-}
-
-.padPhotoJeux {
-    padding-top: 1rem ;
-}
-
-.fa-facebook-square {
-    color: white;
-}
-
-.fa-instagram {
-    color: white;
-}
-
-.fa-twitter {
-    color: white;
-}
-
-.fa-youtube {
-    color: white;
-}
-
-hr{ background: #353434;
-    height: 1px;
-    border-style: none;
-    margin: 2% 0;
-}
-
-
-.couleurNavBar{
-    background-color:rgba(128,128,128,0.4);
-}
