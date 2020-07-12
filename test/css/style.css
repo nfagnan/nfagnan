@@ -1,0 +1,175 @@
+/* testCSS.css */
+/* Programmé par nadine fagnan */
+/* Le 6 juillet 2020 */
+
+
+.couleurNavBar{
+    background-color:rgba(128,128,128,0);
+}
+
+#banniere{
+    background-image: url("../img/AcceuilInvesco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 20rem;
+    padding-top: 30rem;
+    position: relative;
+}
+
+.NavBar{
+    position: center;
+}
+
+.navbar-nav{
+    color: white;
+}
+
+#titreBanniere{
+    color: white;
+    font-family: Muli-medium;
+    font-size: 1.5rem;
+}
+
+.fondrouge{
+background-color: red;
+}
+.fondDarkBleu{
+    background-color: #00011c;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+
+#case3{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#sectionTerrain{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#sectionConstruction{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+@font-face{
+    font-family:Muli-Bold;
+    src: url(../font/Muli-Bold.ttf);
+}
+@font-face{
+    font-family:Muli-light;
+    src: url(../font/Muli-light.ttf);
+}
+@font-face{
+    font-family:Muli-Black;
+    src: url(../font/Muli-Black.ttf);
+}
+@font-face{
+    font-family:Abel-Regular;
+    src: url(../font/Abel-Regular.ttf);
+}
+
+h1{
+   font-family: Muli-Bold;
+   color: white;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: Muli-Black;
+    color: black;
+}
+
+.nav-link{
+    font-family: Muli-Black;
+    color: white;
+}
+.couleurNavBar{
+    background-color:rgba(238,100,11,0);
+}
+
+
+
+.parallax{
+    height: 100% ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btnbtn-primary{
+
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+.fa-facebook-square {
+    color: white;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00011c;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.footerTexte {
+    font-size: 1rem;
+    text-align: justify;
+    font-family: Abel-Regular ;
+    margin-bottom: 3rem;
+
+}
+.footerTexte2 {
+    font-size: 0.5rem;
+    text-align: center;
+    font-family: Abel-Regular ;
+
+}
+.logo{
+    text-align: left;
+    margin-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+    color: white;
+    font-family: Muli-Bold;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+            typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+
+
+Resources

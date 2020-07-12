@@ -2,27 +2,53 @@
 /* Programmé par nadine fagnan */
 /* Le 6 juin 2020 */
 
+
 #banniere{
-    background-image: url("../img/witcherBanniere.jpg");
+    background-image: url("../img/AcceuilInvesco.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 15rem;
 }
 
+.fondDarkBlue{
+    background-color: #00011c;
+    padding-top:60em ;
+}
+.parallax{
+    height: 100% ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondBlanc{
+    background-color: rgba(213, 204, 221, 0.8);
+    padding-top: 50rem;
+    padding-bottom:5rem ;
+}
+
+
 body{
 
 }
 
 @font-face{
-    font-family:Thewitcher-jn0j;
-    src: url(../font/Thewitcher-jnOj.ttf);
+    font-family:Muli-Bold;
+    src: url(../font/Muli-Bold.ttf);
+}
+@font-face{
+    font-family:Muli-light;
+    src: url(../font/Muli-light.ttf);
+}
+@font-face{
+    font-family:Abel-Regular;
+    src: url(../font/Abel-Regular.ttf);
 }
 
-
-h1,h2,h5{
-    color: white;
-    font-family:Thewitcher-jnOj;
+h1,h2,h4,h5{
+    color: red;
+    font-family:Muli-Bold;
 }
 
 h2{
@@ -40,6 +66,7 @@ h4{
     font-weight: bold;
     font-size: 1.5rem;
     padding-top: 1rem;
+    padding-right: 2rem;
 }
 
 h5{
@@ -76,5 +103,42 @@ hr{ background: #353434;
 
 
 .couleurNavBar{
-    background-color:rgba(128,128,128,0.4);
+    background-color:rgba(128,128,128,0);
+}
+
+
+
+
+.fa-facebook-square {
+    color: white;
+}
+.logoFooter {
+    padding-right: 10rem;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00011c;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.footerTexte {
+    font-size: 1rem;
+    text-align: justify;
+    font-family: Abel-Regular ;
+
+}
+.footerTexte2 {
+    font-size: 0.5rem;
+    text-align: center;
+    font-family: Abel-Regular ;
+
+}
+.logo{
+    text-align: left;
+  margin-top: 0.5rem;
+    padding-bottom: 2rem;
 }

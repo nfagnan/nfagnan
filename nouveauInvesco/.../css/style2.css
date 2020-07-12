@@ -1,0 +1,16 @@
+/* testCSS.css */
+/* Programmé par nadine fagnan */
+/* Le 6 juin 2020 */
+
+
+#banniere{
+    background-image: url("../img/AcceuilInvesco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 15rem;
+}
+
+.couleurNavBar{
+    background-color:rgba(128,128,128,0);
+}

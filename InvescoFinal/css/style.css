@@ -1,0 +1,151 @@
+/* testCSS.css */
+/* Programmé par nadine fagnan */
+/* Le 6 juin 2020 */
+
+
+.parallax{
+    height: 100% ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banniere{
+    background-image: url("../img/img1.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.zone3{
+    background-image: url("../img/img3.JPG");
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.zone4{
+    background-image: url("../img/img2.JPG");
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.fondJaune{
+    background-color: rgba(221, 203, 15, 0.8);
+    padding-top: 5rem;
+    padding-bottom:5rem ;
+    margin-top: 16rem;
+}
+.fondGris{
+       background-color: rgba(139, 142, 144, 0.8);
+       padding-top: 2rem;
+       padding-bottom:2rem ;
+       margin-top: 3rem;
+   }
+.fondVert{
+    background-color: forestgreen;
+    padding-top: 10rem;
+    padding-bottom:10rem ;
+}
+
+.fondBeige{
+    background-color: beige;
+    padding-top: 10rem;
+    padding-bottom:10rem ;
+}
+.fondBleu{
+    background-color: dodgerblue;
+    padding-top: 10rem;
+    padding-bottom:10rem ;
+}
+H1{
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+H3{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
+#liste2 {
+    color: white;
+}
+#pzone3 {
+    color: white;
+}
+
+ul li:before {
+    content: '✓';
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.controls {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
+    gap: .7rem;
+}
+
+label {
+    font-size: .8rem;
+    justify-self: end;
+}
+
+input[type='reset'],
+input[type='submit'] {
+    width: 5rem;
+    justify-self: end;
+}
+
+input[type='reset'] {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+input[type='submit'] {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
