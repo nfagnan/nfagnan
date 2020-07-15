@@ -6,6 +6,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Media Queries !</title>
+    <link rel="stylesheet" media="screen" href="screen.css" type="text/css" />
+
 
     <title>invescoHabitation</title>
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
@@ -21,12 +24,11 @@
 <nav class="navbar navbar-expand-lg navbar-light couleurNavBar" >
     <a class="navbar-brand" href="index.html"><img src="img/logo.png"/></a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
+           <img src="img/faviconInvesco.png"/>
        </button>
 <div class="collapse navbar-collapse" id="navbarNav">
        <ul class="navbar-nav">
             <li class="nav-item active"><a class="nav-link" href="terrain.html">Terrains<span class="sr-only">(current)</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Maisons</a></li>
             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
        </ul>
   </div>
@@ -35,76 +37,56 @@
 
 
 
-<div class="container-fluid" id="banniere">
+<div class="container-fluid parallax banniere h-100" id="banniere">
+
   <div class="row>">
-     <div class="col-lg-4">
-        <h1>Nous sommes</h1>
-         <br>
-         <h1>entrepreneur immobilier</h1>
-                 <!-- <span id="text-rotating">
-                 promoteur, constucteur, entrepreneur
-                 </span>-->
-          <div class="typewriter">
-                 <h1> constructeur, promoteur</h1>
-          </div>
-         <span class="typed-cursor" style="animation-iteration-count: infinite;">
-         </span>
+     <div class="col-lg-6">
+         <h3>Invesco Habitation</h3>
      </div>
-      <div class="col-lg-9">
-
+      <div class="col-lg-3">
+          <p id="textebanniere">Nous avons les compétences, le savoir-faire et le pouvoir financier pour assurer la satisfaction du client et bâtir une relation à long terme.</p>
       </div>
-</div>
+  </div>
 </div>
 
 
 
-<div class="container parallax h-100" id="case3">
-    <div class="row align-items-center h-100">
-        <div class="col-lg-4 text-center"><h2>Terrain</h2><p>Nos projets, situés dans les laurentides offrent un vaste choix de terrains, offrant différents avantages, bord de lac, vue panoramique, ski-in-ski-out, location court terme.  </p></div>
-        <div class="col-lg-4 text-center"><h2>Construction</h2><p>Nous sommes spécialisé dans la réalisation de résidence sur mesure. Chaque construction est unique a votre budget et besoin.</p></div>
-        <div class="col-lg-4 text-center"><h2>Condo</h2><p>Nos projets de condo à louer, situé sur les pentes de ski du groupe MSSI, vous offrent la possibilitée de profiter des activitées dans les Laurentides </p></div>
-    </div>
-</div>
 
 
 
 <section>
-<div class="container-fluid text-left">
+<div class="parallax h-100" id="case3">
     <div class="row">
-        <div class="col-lg-12" id="sectionTerrain">
-            <h2>Découvrez</h2><p>Nos projets de terrains résidentielle</p>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ul class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ul>
-                <div class="carousel-inner"><div class="carousel-item active">
-                    <img class="img-fluid" src="img/BlueRidge.png" alt="photoMaison1">
-                </div>
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="img/rustique.png" alt="photomaison2">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="img/kickingHorse.png" alt="Arbre">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-            </div> <!-- Fin du carousel -->
+        <div class="col-lg-12 text-center">
+            <h1>Nous sommes entrepreneur</h1>
+            <!-- <span id="text-rotating">
+            promoteur, constucteur, entrepreneur
+            </span>-->
+            <div class="typewriter">
+                <h1> constructeur, promoteur  immobilier</h1>
+            </div>
+            <span class="typed-cursor" style="animation-iteration-count: infinite;">
+         </span>
         </div>
     </div>
-</div>
+  </div>
 </section>
+
+<section id="divTerrainTexte">
+<div class="container-fluid">
+    <div class="row">
+       <div class="col-lg-3 text-left"><h4>Terrains.</h4>
+           <hr>
+           <p>Nos projets, situés dans les laurentides offrent un vaste choix de terrains, offrant différents avantages, bord de lac, vue panoramique, ski-in-ski-out, location court terme.</p>
+       </div>
+
+    </div>
+</div>
 
 
 <!-- Bouton qui ouvre le modal (nous verrons d’autres façons de l’ouvrir avec Javascript) -->
 <button type="button" class="bouton" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Voir nos projets </button>
+    Voir tout nos projets </button>
 
 <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
 
@@ -130,13 +112,13 @@
                                             <li data-target="#myCarousel" data-slide-to="2"></li>
                                         </ul>
                                         <div class="carousel-inner"><div class="carousel-item active">
-                                            <img class="img-fluid" src="img/BlueRidge.png" alt="photoMaison1">
+                                            <img class="img-fluid" src="img/BlueRidgecopie.png" alt="photoMaison1">
                                         </div>
                                             <div class="carousel-item">
-                                                <img class="img-fluid" src="img/rustique.png" alt="photomaison2">
+                                                <img class="img-fluid" src="img/rustiquecopie.png" alt="photomaison2">
                                             </div>
                                             <div class="carousel-item">
-                                                <img class="img-fluid" src="img/kickingHorse.png" alt="Arbre">
+                                                <img class="img-fluid" src="img/kickingHorsecopie.png" alt="Arbre">
                                             </div>
                                         </div>
                                         <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
@@ -151,58 +133,154 @@
                         </div>
                     </section>
 
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus</a>
 
-                    </p> </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+</section>
+
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 col-12 ">
+            <img src="img/AllanFalls.png" class="photoLivre"
+                 alt="photo1"/>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12 ">
+            <img src="img/BlueRidge.png" class="photoLivre"
+                 alt="photo2"/>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12">
+            <img src="img/kickingHorse.png" class="photoLivre"
+                 alt="photo3">
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12">
+            <img src="img/rustique.png" class="photoLivre"
+                 alt="photo4"/>
+        </div>
 
 
 
 
+    </div>
+</div>
 
-    <section>
-    <div class="container-fluid text-left">
-        <div class="row">
-            <div class="col-lg-12" id="sectionTerrain">
-                <h2>Découvrez</h2><p>Nos constructions résidentielle</p>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <ul class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ul>
-                    <div class="carousel-inner"><div class="carousel-item active">
-                        <img class="img-fluid" src="img/invesco15.JPG" alt="photoMaison1">
-                    </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid" src="img/invesco95.JPG" alt="photomaison2">
+
+<section id="divConstructionTexte">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 text-left"><h4>Construction.</h4>
+            <hr>
+            <p>Nous sommes spécialisé dans la réalisation de résidence sur mesure. Chaque construction est unique a votre budget et besoin.</p>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Bouton qui ouvre le modal (nous verrons d’autres façons de l’ouvrir avec Javascript) -->
+<button type="button" class="bouton" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Voir tout nos projets </button>
+
+<div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+
+    <div class="modal-dialog" role="document">
+
+        <div class="modal-content">
+
+            <div class="jumbotron jumbotron-fluid">
+
+                <div class="container-fluid text-center">
+
+                    <h1 class="display-4">Nos Constructions</h1>
+
+                    <section>
+                        <div class="container-fluid text-left">
+                            <div class="row">
+                                <div class="col-lg-12" id="sectionTerrain">
+                                    <h2>Découvrez</h2><p>Nos projets de terrains résidentielle</p>
+                                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <ul class="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        </ul>
+                                        <div class="carousel-inner"><div class="carousel-item active">
+                                            <img class="img-fluid" src="img/Invesco73.JPG" alt="photoMaison1">
+                                        </div>
+                                            <div class="carousel-item">
+                                                <img class="img-fluid" src="img/invesco20.JPG" alt="photomaison2">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="img-fluid" src="img/invesco15.JPG" alt="photomaison2">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="img-fluid" src="img/invesco95.JPG" alt="Arbre">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                            <span class="carousel-control-prev-icon"></span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                            <span class="carousel-control-next-icon"></span>
+                                        </a>
+                                    </div> <!-- Fin du carousel -->
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid" src="img/invesco62.JPG" alt="Arbre">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div> <!-- Fin du carousel -->
+                    </section>
+
+                    <a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus</a>
+
+                </div>
             </div>
         </div>
     </div>
+</div>
+</section>
+
+<section id="photoConstruction4">
+<div class="container-fluid text-center" id="photoConstruction">
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 col-12 ">
+            <img src="img/invesco95copie.JPG" class="photoConstruction"
+                 alt="photo1"/>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12 ">
+            <img src="img/invesco15copie.JPG" class="photoConstruction"
+                 alt="photo2"/>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12">
+            <img src="img/invesco20copie.JPG" class="photoConstruction"
+                 alt="photo3">
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12">
+            <img src="img/invesco62copie.JPG" class="photoConstruction"
+                 alt="photo4"/>
+        </div>
+    </div>
+</div>
 </section>
 
 
 
 
 
+
+
+
+
 <div class="footer">
-    <div class="offset-lg-1 logo"> <img src="img/logo.png"/>
-        <h4> Ensemble bâtissons votre résidence de rêve</h4>
+    <div class="offset-lg-1 logo"> <img src="img/pngsf.png"/>
+        <h5> Ensemble bâtissons votre résidence de rêve</h5>
         <p class>Commeçons votre projet</p>
     </div>
     <div class="offset-lg-9"><h4>Invesco Habitation</h4>
@@ -221,9 +299,6 @@
 </div>
 
 
-<div class="typewriter">
-    <h1>The cat and the hat.</h1>
-</div>
 
 <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
