@@ -27,7 +27,7 @@
 
 #titreBanniere{
     color: white;
-    font-family: Muli-medium;
+    font-family: mulimedium;
     font-size: 1.5rem;
 }
 
@@ -105,6 +105,10 @@
     src: url(../font/Abel-Regular.ttf);
 }
 
+@font-face{
+    font-family : mulimedium;
+    src: url(../font/Muli-Medium.ttf);
+}
 h1{
    font-family: muliBold;
    color: black;
@@ -129,6 +133,7 @@ h5{
     font-family: muliBlack;
     color: white;
     font-size: 1.5rem;
+    text-align: justify;
 }
 hr{ background: #353434;
     height: 2px;
@@ -170,6 +175,10 @@ hr{ background: #353434;
 .fa-facebook-square {
     color: white;
 }
+.sectionDroiteFooter{
+    padding-top: 4rem;
+
+}
 .footer {
     left: 0;
     bottom: 0;
@@ -182,30 +191,28 @@ hr{ background: #353434;
 .footerTexte {
     font-size: 1rem;
     text-align: justify;
-    font-family: Abel-Regular ;
+    font-family: abelRegular ;
 
 
 }
 .footerTexte2 {
     font-size: 0.5rem;
     text-align: center;
-    font-family: Abel-Regular ;
+    font-family: abelRegular ;
 
 }
 .logo{
     text-align: left;
-    margin-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
     color: black;
-    font-family: Muli-Bold;
+    font-family: muliBold;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em dimgrey; /* The typwriter cursor */
-
+    border-right: .15em solid dimgrey; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation:
@@ -235,4 +242,27 @@ hr{ background: #353434;
     .TMQ{
         font-size: 1rem;
     }
+    #banniere{
+        background-image: url("../img/img2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-bottom: 30rem;
+        padding-top: 30rem;
+        position: relative;
+    }
+
 }
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px){
+    #banniere{
+        background-image: url("../img/img3.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-bottom: 30rem;
+        padding-top: 30rem;
+        position: relative;
+    }
+}
+
