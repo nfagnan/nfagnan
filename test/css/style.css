@@ -84,49 +84,49 @@
     padding-bottom: 5rem;
 }
 #textebanniere{
-   font-family: Abel-Regular;
+   font-family: abelRegular;
     color: white;
 }
 
 @font-face{
-    font-family:Muli-Bold;
+    font-family:muliBold;
     src: url(../font/Muli-Bold.ttf);
 }
 @font-face{
-    font-family:Muli-light;
+    font-family:mulilight;
     src: url(../font/Muli-light.ttf);
 }
 @font-face{
-    font-family:Muli-Black;
+    font-family:muliBlack;
     src: url(../font/Muli-Black.ttf);
 }
 @font-face{
-    font-family:Abel-Regular;
+    font-family:abelRegular;
     src: url(../font/Abel-Regular.ttf);
 }
 
 h1{
-   font-family: Muli-Bold;
+   font-family: muliBold;
    color: black;
     font-size: 3rem;
 }
 
 h2{
-    font-family: Muli-Black;
+    font-family: muliBlack;
     color: black;
 }
 h3{
-     font-family: Muli-Black;
+     font-family: muliBlack;
      color: white;
      font-size: 4rem;
  }
 h4{
-    font-family: Muli-Black;
+    font-family: muliBlack;
     color: black;
     font-size: 1.5rem;
 }
 h5{
-    font-family: Muli-Black;
+    font-family: muliBlack;
     color: white;
     font-size: 1.5rem;
 }
@@ -228,20 +228,35 @@ hr{ background: #353434;
 
 /* Cellulaires */ Media queries css
 @media screen and (max-width: 480px){
-    div.case3
-}
+    .TMQ{
     font-size: 1.5rem;
+}
+    .image1{
+        display: none;
+    }
 }
 /* TABLETTES */
 @media screen and (min-width: 481px) and (max-width: 1199px){
-    div.case3
-}
+    .TMQ{
 font-size: 3rem;
+    }
+    .image2{
+        display: none;
+    }
+    .image1{
+        display: block;
+    }
 {
 
 @media screen and (min-width: 1200px){
-    div.case3
-    font-size: 3rem;
-}
-
+    .TMQ{
+        font-size: 3rem;
+    }
+    .image2{
+        display: none;
+    }
+    .image1{
+        display: block;
+    }
+{
 
