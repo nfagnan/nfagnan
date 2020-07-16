@@ -251,10 +251,10 @@ hr{ background: #353434;
         padding-top: 30rem;
         position: relative;
     }
-
 }
 /* TABLETTES */
 @media screen and (min-width: 481px) and (max-width: 1199px){
+
     #banniere{
         background-image: url("../img/img3.JPG");
         background-repeat: no-repeat;
