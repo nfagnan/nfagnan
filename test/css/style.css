@@ -213,6 +213,11 @@ hr{ background: #353434;
             blink-caret .5s step-end infinite;
 }
 
+.TMQ{
+    font-size: 3rem;
+}
+
+
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
@@ -228,36 +233,8 @@ hr{ background: #353434;
 /* Cellulaires */ Media queries css
 @media screen and (max-width: 480px){
     .TMQ{
-        font-size: 10rem;
-    }
-    .image1{
-        display: none;
-    }
-    .image2{
-        display: block;
-    }
-}
-/* TABLETTES */
-@media screen and (min-width: 481px) and (max-width: 1199px){
-    .TMQ{
-        font-size: 3rem;
-    }
-    .image2{
-        display: none;
-    }
-    .image1{
-        display: block;
+        font-size: 1rem;
     }
 }
 
-@media screen and (min-width: 1200px){
-    .TMQ{
-        font-size: 3rem;
-    }
-    .image2{
-        display: none;
-    }
-    .image1{
-        display: block;
-    }
-}
+    
